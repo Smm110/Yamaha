@@ -1,0 +1,292 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Montserrat:wght@100;300;400;500;800&family=Oswald:wght@200;300;400;500;600;700&display=swap');
+    *{
+    margin:0px;
+    padding: 0px;
+
+    }
+    html{
+    font-family: 'Inter', sans-serif;
+        } 
+    header{
+        display: flex;
+        height: 60px;
+        background-color: rgb(69, 69, 69);
+        align-items: center;
+        justify-content: space-between;
+        
+    }
+    .nav{
+        display: flex;
+
+    }
+    .logo img{
+        height: 40px;
+        margin-left: 10px;
+
+    }
+    .menu{
+        margin-left: 70px;
+        margin-right: 10px;
+        }
+
+    .menu a{
+    text-decoration: none;
+    color: white;
+    display: flex;
+    align-items: center;
+    }
+    .activ{
+        border-bottom: 2px solid red;
+    }
+    .intro{
+        display: flex;
+        align-items: center;
+        height: 749px;
+        background-image: url(r1.png);
+        background-size: cover;
+        margin-bottom: 175px;
+        background-position: bottom;
+    }
+    .intro-body{
+        margin-left: 54px;
+
+    }
+    .intro-text{
+        width: 598px;
+        font-family: Oswald;
+        font-size: 64px;
+        color:white;
+        line-height: 95px;
+    }
+    .intro-button{
+        background: #EB0000;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 15px;
+
+        width: max-content;
+        padding:  30px 54px;
+        border-radius: 5px;
+        margin-top: 41px;
+    }
+    .intro-button a{
+        text-decoration: none;
+        color: #FFFFFF;
+    }
+
+
+    .Vozmozhnosti{
+        display: flex;
+        height: 290px;
+        width: 1049px;
+        margin: 0 auto;
+        margin-bottom: 15px;
+    }
+
+
+    .Uslugi{
+        width: 430px;
+        height: 290px;
+        background: url(Uslugi.png);
+        display: flex;
+        background-size:cover;
+        background-size:100%;
+        align-items: end;
+    }
+    .Uslugi-text{
+        text-align: center;
+        font-family: 'Oswald';
+        font-size: 23px;
+        width: 100%;
+        height: 36px;
+        padding:  27px 0px;
+        background: rgba(0, 0, 0, 0.5);
+        
+
+    }
+    .Uslugi-text a{
+        color: #FFFFFF;
+        text-decoration: none;
+    }
+    .Uslugi-text:hover{
+        background: rgba(255, 0, 0, 0.407);
+    }
+
+
+    .Zapchasti{
+        width: 300px;
+        height: 290px;
+        background: url(Zapchasti.png);
+        display: flex;
+        margin-left: 15px;
+        background-size:cover;
+        background-size:100%;
+    }
+    .Zapchasti-text{
+        font-family: 'Oswald';
+        font-size: 23px;
+        width: 85px;
+        height: 36px;
+        padding:  27px 108px;
+        background: rgba(0, 0, 0, 0.5);
+        margin-top: auto;
+    }
+    .Zapchasti-text a{
+        color: #FFFFFF;
+        text-decoration: none;
+    }
+    .Zapchasti-text:hover{
+        background: rgba(255, 0, 0, 0.407);
+    }
+
+
+    .Garantii{
+        width: 290px;
+        height: 290px;
+        background: url(Garantii.png);
+        display: flex;
+        margin-left: 15px;
+        background-size:cover;
+        background-size:100%;
+    }
+    .Garantii-text{
+        font-family: 'Oswald';
+        font-size: 23px;
+        width: 82px;
+        height: 36px;
+        padding:  27px 104px;
+        background: rgba(0, 0, 0, 0.5);
+        margin-top: auto;
+    }
+    .Garantii-text a{
+        color: #FFFFFF;
+        text-decoration: none;
+    }
+    .Garantii-text:hover{
+        background: rgba(255, 0, 0, 0.407);
+    }
+
+
+    .YAMALUBE{
+        background: url(Group\ 1.png);
+        display: flex;
+        width: 1050px;
+        height: 295px;
+        margin: 0 auto;
+        background-size:cover;
+        background-size:100%;
+        margin-bottom: 85px;
+
+    }
+    .YAMALUBE-text{
+        font-family: 'Oswald';
+        font-size: 23px;
+        width: 1050px;
+        height: 90px;
+        padding:  0px 452px;
+        background: rgba(0, 0, 0, 0.5);
+        margin-top: auto;
+    }
+    .YAMALUBE-text a{
+        color: #FFFFFF;
+        text-decoration: none;
+    }
+    .YAMALUBE-text:hover{
+        background: rgba(255, 0, 0, 0.407);
+    }
+
+
+    .history{
+    display: flex;
+    margin-bottom: 85px;
+    justify-content: space-around;
+    }
+    .history-text{
+        text-align: center;
+        color: #EB0000;
+        font-family: 'Oswald';
+        font-size: 30px;
+        margin-bottom: 104px;
+    }
+
+
+
+    .bestselleri{
+    width: 370px;        
+    }
+    .bestselleriK{
+        background:url(bestselleri.png);
+        width: 370px;
+        height: 210px;
+        overflow: hidden;
+        background-size:cover;
+        background-size:100%;
+    }
+    .bestselleriD{
+        font-family: 'Oswald';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 13px;
+        color: #EB0000;
+    }
+    .bestselleriO{
+        font-family: 'Oswald';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 15px;
+    }
+
+
+    .autolube{
+        margin-left: 81px;
+    }
+    .autolubeK{
+        background: url(autolube.png);
+        width: 370px;
+        height: 210px;
+        overflow: hidden;
+        display: flex; 
+        background-size:cover;
+        background-size:100%;
+    }
+    .autolubeD{
+        font-family: 'Oswald';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 13px;
+        color: #EB0000;
+    }
+    .autolubeO{
+        font-family: 'Oswald';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 15px;
+    }
+
+    .boats{
+        margin-left: 81px;
+    }
+    .boatsK{
+        background: url(boats.png);
+        width: 370px;
+        height: 210px;
+        overflow: hidden;
+        display: flex; 
+        background-size:cover;
+        background-size:100%;
+    }
+    .boatsD{
+        font-family: 'Oswald';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 13px;
+        color: #EB0000;
+    }
+    .boatsO{
+        font-family: 'Oswald';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 15px;
+        line-height: 22px;
+    }
